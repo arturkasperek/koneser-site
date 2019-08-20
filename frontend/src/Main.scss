@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+
+  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .heading, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .handwritten {
+    font-family: 'Parisienne', cursive;
+  }
+
+  input, button {
+    font-family: inherit;
+    font-size: 13px;
+  }
+
+  h1 {
+    margin: 30px 0;
+    font-size: 50px;
+  }
+
+  h2 {
+    margin: 25px 0;
+    font-size: 40px;
+  }
+
+  h3 {
+    margin: 20px 0;
+    font-size: 30px;
+  }
+
+  h4 {
+    margin: 18px 0;
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  h5 {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    &.no-margin {
+      margin: 0;
+    }
+  }
+
+  input {
+    border: none;
+    padding: 12px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    @media (max-width: 1280px) {
+      max-width: 100%;
+      padding: 0 50px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 0 25px;
+    }
+  }
+}
