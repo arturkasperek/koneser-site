@@ -1,6 +1,9 @@
 import React from 'react';
 import Slider from "react-slick";
 import './FullImageGallery.scss';
+import KuchniaImg from '../assets/images/showcase/kuchnia.jpg'
+import LazienkaImg from '../assets/images/showcase/lazienka.jpg'
+import SalonImg from '../assets/images/showcase/salon.jpg'
 
 const FullImageGallery = (props) => {
     const settings = {
@@ -13,15 +16,15 @@ const FullImageGallery = (props) => {
         pauseOnHover: false,
     };
     const images = [{
-        image: '/images/showcase/lazienka.jpg',
+        image: LazienkaImg,
         name: 'Łazienki',
         slug: 'lazienki',
     }, {
-        image: '/images/showcase/kuchnia.jpg',
+        image: KuchniaImg,
         name: 'Kuchnie',
         slug: 'kuchnie',
     }, {
-        image: '/images/showcase/salon.jpg',
+        image: SalonImg,
         name: 'Salony',
         slug: 'salony',
     }];
