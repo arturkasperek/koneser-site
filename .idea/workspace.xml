@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a1e79c-15cb-4a28-97bc-c80b4ca336b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/FullImageGallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/FullImageGallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GalleriesPicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GalleriesPicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GridGallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GridGallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/IntroImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/IntroImage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Overlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Overlay.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/kontakt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/realizacje.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/templates/RealizationTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/templates/RealizationTemplate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/utils/typography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/images/404_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/images/gallery_picker.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/IntroImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IntroImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +82,7 @@
       <workItem from="1594140666014" duration="1266000" />
       <workItem from="1599745991906" duration="1832000" />
       <workItem from="1599752883872" duration="4351000" />
-      <workItem from="1600183938643" duration="11895000" />
+      <workItem from="1600183938643" duration="12274000" />
     </task>
     <servers />
   </component>
