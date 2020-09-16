@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "realization",
+  "info": {
+    "name": "Realizacja"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

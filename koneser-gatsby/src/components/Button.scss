@@ -1,0 +1,23 @@
+.button-element {
+  display: flex;
+
+  a {
+    text-decoration: none;
+  }
+
+  .button-wrapper {
+    padding: 10px;
+    border: 1px solid #ffd600;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ffd600;
+      color: black;
+    }
+
+    @media (max-width: 600px) {
+      flex-basis: 0;
+      flex-grow: 1;
+    }
+  }
+}

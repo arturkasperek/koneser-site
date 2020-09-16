@@ -1,0 +1,38 @@
+.about-home {
+  margin: 60px 0;
+
+  .content-wrapper {
+    display: flex;
+
+    .left {
+      margin: 0 20px;
+      position: relative;
+      flex-basis: 50%;
+
+      .left-wrapper {
+        width: 100%;
+        padding-bottom: 80%;
+
+        .image-wrapper {
+          position: absolute;
+          left: 0;
+          background-position: center;
+          background-size: cover;
+          right: 0;
+          bottom: 0;
+          top: 0;
+        }
+      }
+    }
+
+    .right {
+      margin: 0 20px;
+      flex-basis: 50%;
+
+      .bottom {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+    }
+  }
+}

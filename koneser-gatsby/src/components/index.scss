@@ -1,0 +1,53 @@
+body {
+  overflow-x: hidden;
+
+  img {
+    margin: 0;
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+
+  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .handwritten {
+    font-family: 'Parisienne', cursive;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: underline;
+    outline: none;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    @media (max-width: 1280px) {
+      max-width: 100%;
+      padding: 0 50px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 0 25px;
+    }
+  }
+}

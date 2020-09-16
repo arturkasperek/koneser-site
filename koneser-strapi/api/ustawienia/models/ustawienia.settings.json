@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settings",
+  "info": {
+    "name": "Ustawienia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "homepageTiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.homepage-tiles"
+    },
+    "homepageTilesTitle": {
+      "type": "string"
+    },
+    "homepageAboutTitle": {
+      "type": "string"
+    },
+    "homepageAboutDescription": {
+      "type": "text"
+    },
+    "homepageAboutImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

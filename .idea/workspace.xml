@@ -1,27 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5a1e79c-15cb-4a28-97bc-c80b4ca336b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/FullImageGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/FullImageGallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GalleriesPicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GalleriesPicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GridGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GridGallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/IntroImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/IntroImage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/Overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/kontakt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/realizacje.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/templates/RealizationTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/templates/RealizationTemplate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/src/utils/typography.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/images/404_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/images/gallery_picker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneser-gatsby/static/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IntroImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IntroImage.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vHkreChf" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="829" />
   </component>
+  <component name="ProjectId" id="1hK3WjArW7SKahjk6q80NXhmJhg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/koneser-gatsby/src/components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/koneser-gatsby/static" />
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src/components" />
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src" />
+      <recent name="$PROJECT_DIR$/koneser-strapi/config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src/components" />
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src/pages" />
+      <recent name="$PROJECT_DIR$/koneser-gatsby/static/images" />
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src/templates" />
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src/images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5a1e79c-15cb-4a28-97bc-c80b4ca336b8" name="Default Changelist" comment="" />
+      <created>1566320000592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566320000592</updated>
+      <workItem from="1566320001794" duration="1816000" />
+      <workItem from="1567337967455" duration="9073000" />
+      <workItem from="1582227452973" duration="5535000" />
+      <workItem from="1582480682607" duration="2947000" />
+      <workItem from="1582660814710" duration="6370000" />
+      <workItem from="1582699709186" duration="176000" />
+      <workItem from="1586704429128" duration="4171000" />
+      <workItem from="1586844535778" duration="5000" />
+      <workItem from="1594125831359" duration="2071000" />
+      <workItem from="1594140666014" duration="1266000" />
+      <workItem from="1599745991906" duration="1832000" />
+      <workItem from="1599752883872" duration="4351000" />
+      <workItem from="1600183938643" duration="11895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600235011177">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.832@0.23.1440.832" timestamp="1600235011177" />
+    <state x="221" y="78" key="SettingsEditor" timestamp="1600234878919">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="221" y="78" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1600234878919" />
+    <state x="421" y="193" width="598" height="556" key="find.popup" timestamp="1600238217664">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="421" y="193" width="598" height="554" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1599756762792" />
+    <state x="421" y="193" width="598" height="556" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1600238217664" />
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1600190787546">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1600190787546" />
   </component>
 </project>
