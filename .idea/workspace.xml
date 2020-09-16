@@ -3,8 +3,128 @@
   <component name="ChangeListManager">
     <list default="true" id="e5a1e79c-15cb-4a28-97bc-c80b4ca336b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koneser-gatsby/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/chunk-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/chunk-map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/kontakt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kontakt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/docs/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/page-data/app-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/page-data/app-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/page-data/sq/d/1132682437.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/page-data/sq/d/1132682437.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/page-data/using-typescript/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/page-data/using-typescript/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/404/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/app-3e30708e2033e9672d3a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/app-3e30708e2033e9672d3a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/app-7801bdd2264d7cbe8c5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/app-7801bdd2264d7cbe8c5e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/chunk-map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/commons-59915c63489ab08c903a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/commons-59915c63489ab08c903a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-404-js-7e93df563d7048232dfc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-404-js-7e93df563d7048232dfc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-index-js-906e32bb1c7d3251732a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-index-js-906e32bb1c7d3251732a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-kontakt-js-011cf6538816573334c6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-kontakt-js-011cf6538816573334c6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-kontakt-js-e2672257a34cdfccfa8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-kontakt-js-e2672257a34cdfccfa8b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-realizacje-js-7711bddaa7d272e939b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-realizacje-js-7711bddaa7d272e939b1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-realizacje-js-b779f355eca38358dae5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-realizacje-js-b779f355eca38358dae5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-using-typescript-tsx-926e0b016baab498c5de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-pages-using-typescript-tsx-926e0b016baab498c5de.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-templates-realization-template-js-e90c9a3619aaefc934df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/component---src-templates-realization-template-js-e90c9a3619aaefc934df.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/framework-a7bb16c5c6afeed647b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/framework-a7bb16c5c6afeed647b2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/404_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/gallery_picker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/kontakt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/showcase/kuchnia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/showcase/lazienka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/showcase/salon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/images/showcase/umhnz2mevc6xzbuylini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/kontakt/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/404.html/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/404/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/app-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/dev-404-page/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/index/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/kontakt/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/page-2/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/realizacje/kuchnie/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/realizacje/lazienki/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/realizacje/lazienkni/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/realizacje/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/realizacje/salony/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/realizations/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/sq/d/1132682437.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/sq/d/3649515864.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/sq/d/63159454.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/page-data/using-typescript/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/polyfill-23968b7917e0cb4d0009.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/polyfill-23968b7917e0cb4d0009.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/realizacje/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/realizacje/kuchnie/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/realizacje/lazienki/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/realizacje/salony/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/2a4de/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/5db04/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/62b1f/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/630fb/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/6d161/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/ee604/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/styles-c2fe8482057191dca484.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/styles-c2fe8482057191dca484.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/styles.fe525565495db00fad45.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/using-typescript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack-runtime-a6805f7a174e74c399e5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack-runtime-a6805f7a174e74c399e5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack-runtime-b4253e74c00320b234a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack-runtime-b4253e74c00320b234a1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack-runtime-fdb0d9016c9762d88a40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack-runtime-fdb0d9016c9762d88a40.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/webpack.stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/realizacje/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/realizacje/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/realizacje/kuchnie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/realizacje/kuchnie/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/realizacje/lazienki/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/realizacje/lazienki/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/realizacje/salony/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/realizacje/salony/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/using-typescript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/using-typescript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/webpack.stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webpack.stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koneser-gatsby/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/src/components/FullImageGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/FullImageGallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/src/components/GalleriesPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/components/GalleriesPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/src/pages/kontakt.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/kontakt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/src/pages/realizacje.js" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/pages/realizacje.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/static/images/404_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/assets/images/404_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/static/images/gallery_picker.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/assets/images/gallery_picker.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/static/images/kontakt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/assets/images/kontakt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/static/images/showcase/kuchnia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/assets/images/showcase/kuchnia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/static/images/showcase/lazienka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/assets/images/showcase/lazienka.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koneser-gatsby/static/images/showcase/salon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/koneser-gatsby/src/assets/images/showcase/salon.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +167,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/koneser-gatsby/src/assets" />
       <recent name="$PROJECT_DIR$/koneser-gatsby/static" />
       <recent name="$PROJECT_DIR$/koneser-gatsby/src/components" />
       <recent name="$PROJECT_DIR$/koneser-gatsby/src" />
@@ -82,7 +203,7 @@
       <workItem from="1594140666014" duration="1266000" />
       <workItem from="1599745991906" duration="1832000" />
       <workItem from="1599752883872" duration="4351000" />
-      <workItem from="1600183938643" duration="12274000" />
+      <workItem from="1600183938643" duration="13991000" />
     </task>
     <servers />
   </component>
@@ -98,11 +219,11 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="221" y="78" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1600234878919" />
-    <state x="421" y="193" width="598" height="556" key="find.popup" timestamp="1600238217664">
+    <state x="421" y="193" width="604" height="556" key="find.popup" timestamp="1600241335145">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="421" y="193" width="598" height="554" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1599756762792" />
-    <state x="421" y="193" width="598" height="556" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1600238217664" />
+    <state x="421" y="193" width="604" height="556" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1600241335145" />
     <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1600190787546">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
