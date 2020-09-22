@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
 import cn from 'classnames';
+import LogoImg from '../assets/images/logo.png'
 import './Header.scss';
 
 class Header extends React.Component {
@@ -48,7 +49,7 @@ class Header extends React.Component {
               <Link to={'/'}>
                 <div className={'logo-wrapper'}>
                   <div class={'logo-container'}>
-                    <img alt={''} src={'http://res.cloudinary.com/luxuryp/image/upload/q_auto:good,f_auto/v1471294760/umhnz2mevc6xzbuylini.png'} className={'logo-holder'} />
+                    <img alt={''} src={LogoImg} className={'logo-holder'} />
                   </div>
                   <div>
                     <span className={cn('motto handwritten', {visible: this.state.pinned})}>Meble dla wymagających</span>
