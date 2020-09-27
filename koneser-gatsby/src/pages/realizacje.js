@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IntroImage from "../components/IntroImage";
 import GalleriesPicker from "../components/GalleriesPicker";
-import GalleryPickerImg from '../assets/images/gallery_picker.jpg'
+import GalleryPickerImg from '../assets/images/realizacje/main.jpg'
 
 
 const Realizations = () => (

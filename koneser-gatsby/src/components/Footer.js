@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                     <div className={'right'}>
                         <div><h3 className={'title'}>Kontakt</h3></div>
-                        <div className={'phone'}><span className={'italic'}>(310) 285-7508</span></div>
+                        <div className={'phone'}><a href={'tel:694 594 344'} className={'italic'}>694 594 344</a></div>
                         <div className={'address'}><span className={'italic'}>42-400 Zawiercie, Rolnicza 77</span></div>
                     </div>
                 </div>

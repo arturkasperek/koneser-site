@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import './FullImageGallery.scss';
 import KuchniaImg from '../assets/images/showcase/kuchnia.jpg'
 import LazienkaImg from '../assets/images/showcase/lazienka.jpg'
-import SalonImg from '../assets/images/showcase/salon.jpg'
+import InneImg from '../assets/images/showcase/inne.jpg'
+import SzafaImg from '../assets/images/showcase/szafa.jpg'
 
 const FullImageGallery = (props) => {
     const settings = {
@@ -16,17 +17,21 @@ const FullImageGallery = (props) => {
         pauseOnHover: false,
     };
     const images = [{
-        image: LazienkaImg,
-        name: 'Łazienki',
-        slug: 'lazienki',
-    }, {
         image: KuchniaImg,
         name: 'Kuchnie',
         slug: 'kuchnie',
     }, {
-        image: SalonImg,
-        name: 'Salony',
-        slug: 'salony',
+        image: LazienkaImg,
+        name: 'Łazienki',
+        slug: 'lazienki',
+    }, {
+        image: SzafaImg,
+        name: 'Szafy I Garderoby',
+        slug: 'szafy-garderoby',
+    }, {
+        image: InneImg,
+        name: 'Inne',
+        slug: 'inne',
     }];
     return (
         <div className={'full-image-gallery'}>

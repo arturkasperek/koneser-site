@@ -4,25 +4,30 @@ import './GalleriesPicker.scss';
 import Overlay from "./Overlay";
 import KuchniaImg from '../assets/images/showcase/kuchnia.jpg'
 import LazienkaImg from '../assets/images/showcase/lazienka.jpg'
-import SalonImg from '../assets/images/showcase/salon.jpg'
+import InneImg from '../assets/images/showcase/inne.jpg'
+import SzafaImg from '../assets/images/showcase/szafa.jpg'
 
 const galleries = [{
-    image: LazienkaImg,
-    name: 'Łazienki',
-    slug: 'lazienki',
-}, {
     image: KuchniaImg,
     name: 'Kuchnie',
     slug: 'kuchnie',
 }, {
-    image: SalonImg,
-    name: 'Salony',
-    slug: 'salony',
+    image: LazienkaImg,
+    name: 'Łazienki',
+    slug: 'lazienki',
+}, {
+    image: SzafaImg,
+    name: 'Szafy I Garderoby',
+    slug: 'szafy-garderoby',
+}, {
+    image: InneImg,
+    name: 'Inne',
+    slug: 'inne',
 }];
 
 const GalleriesPicker = () => {
     return (
-        <div className={`galleries-picker`}>
+        <div className={`galleries-picker container`}>
             {galleries.map(gallery => (
                 <div className={'gallery-item'}>
                     <Link to={`/realizacje/${gallery.slug}`}>
@@ -30,7 +35,7 @@ const GalleriesPicker = () => {
                             <div className={'image-holder'} style={{backgroundImage: `url(${gallery.image})`}} />
                             <Overlay opacity={0.5}/>
                             <div className={'gallery-name'}>
-                                <h4 className={'no-margin'}>{gallery.name}</h4>
+                                <h3 className={'no-margin'}>{gallery.name}</h3>
                             </div>
                         </div>
                     </Link>

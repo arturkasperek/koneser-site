@@ -1,6 +1,7 @@
 import * as React from 'react';
 import cn from 'classnames';
 import './ImageAndTextGrid.scss';
+import SzkicImg from '../assets/images/homepage/szkic.png';
 
 const items = [{
   title: 'Pomiar',
@@ -10,7 +11,7 @@ const items = [{
 }, {
   title: 'Projekt',
   description: 'Na podstawie wcześniejszych założeń, w ciągu kilku dni przygotowyjemy projekt komputerowy z wizualizacją. Projekt może być przygotowany w kilku wariantach ( np różne ustawienie szafek, różne opcje kolorów itd.)',
-  image: 'https://static.turbosquid.com/Preview/2017/09/21__13_45_49/3dad_poliformkitchenB.jpgAE7F8C9E-1B5D-4BB6-BA5C-32A22FCD97DBOriginal.jpg',
+  image: SzkicImg,
   imageOnRight: true,
 }, {
   title: 'Wycena',
