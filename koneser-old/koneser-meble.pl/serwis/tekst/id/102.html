@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/serwis/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/serwis/text.css" />
+<link rel="stylesheet" type="text/css" href="/css/serwis/960.css" />
+<link rel="stylesheet" type="text/css" href="/css/font/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/css/serwis/style.css" />
+<script type="text/javascript" src="/assets/ffbb4444/jquery.min.js"></script>
+<script type="text/javascript" src="/js/galleria/galleria.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+Galleria.loadTheme("/js/galleria/galleria.classic.js");
+/*]]>*/
+</script>
+<title>Lodówki zamrażarki - Zabudowy kuchenne - Koneser - Meble Dla Wymagających</title>
+<meta name="author" content="Kasia" />
+<meta name="google-site-verification" content="VMyTgv_Kwrcmh9yCn7zHkRIP4YIdreEmJABgXl4GyBM" />
+</head>
+<body>
+<div id="wrapper">
+<div class="container_12" id="frame">
+  <div class="grid_3">
+  <h1 id="slogo">Koneser</h1>
+  </div>
+  <div class="grid_9" id="menu">
+<div class="portlet" id="1">
+<div class="portlet-decoration">
+<div class="portlet-title"></div>
+</div>
+<div class="portlet-content">
+<nav><ul class="menu"><li><a title="Firma" href="/serwis/menu/id/2">Firma</a></li><li><a title="Oferta" href="/serwis/menu/id/3">Oferta</a></li><li><a title="Galeria" href="/serwis/menu/id/4">Galeria</a></li><li><a title="Kontakt" href="/serwis/menu/id/1">Kontakt</a></li></ul></nav></div>
+</div>  </div>
+  <div class="clear"></div>
+  <div class="grid_12" id="content">
+<h1 class="bottom"><a href="/serwis/tekst/id/102">Lodówki zamrażarki</a></h1><p class="date">30 cze 2015 <a href="/serwis/kategoria/id/92">Zabudowy kuchenne</a></p><div class="content"></div><div class="content">
+</div>
+
+<h3>Lodówki zamrażarki</h3><div class="galeria"><div><a href="/uploads/files/1082.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1082.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1083.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1083.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1084.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1084.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1085.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1085.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1086.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1086.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1087.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1087.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1088.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1088.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div><div><a href="/uploads/files/1089.jpg"><img alt="Lodówki zamrażarki" src="/uploads/files/t_1089.jpg"/></a><strong>Lodówki zamrażarki</strong><span></span></div></div><br class="x" />
+<p class="back"><a class="read-more" title="Sprzęt AGD do zabudowy" href="/serwis/tekst/id/100">powrót do Sprzęt AGD do zabudowy</a></p><br class="x"/>
+  </div>
+  <div class="clear"></div>
+</div>
+</div>
+<script type="text/javascript">
+$(function() {
+  $(window).load(
+    function() {
+      $('#slogo').css({visibility:'visible', opacity:0}).animate({ opacity: 1}, 1000, function() {});
+    });
+});
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+$(".galeria").galleria({
+        image_crop: true, // crop all images to fit
+        thumb_crop: true, // crop all thumbnails to fit
+        transition: 'fade', // crossfade photos
+        transition_speed: 700, // slow down the crossfade
+        data_config: function(img) {
+            // will extract and return image captions from the source:
+            return  {
+                title: $(img).parent().next('strong').html(),
+                description: $(img).parent().next('strong').next().html()
+            };
+        },
+        extend: function() {
+            this.bind(Galleria.IMAGE, function(e) {
+                // bind a click event to the active image
+                $(e.imageTarget).css('cursor','pointer').click(this.proxy(function() {
+                    // open the image in a lightbox
+                    this.openLightbox();
+                }));
+            });
+        }
+    });
+});
+/*]]>*/
+</script>
+</body>
+
+<!-- directorySlider Javascript file -->
+<script src="/js/directorySlider.min.js"></script>
+
+</html>

@@ -33,7 +33,7 @@ const GalleriesPicker = () => {
                     <Link to={`/realizacje/${gallery.slug}`}>
                         <div className={'gallery-item-wrapper'}>
                             <div className={'image-holder'} style={{backgroundImage: `url(${gallery.image})`}} />
-                            <Overlay opacity={0.5}/>
+                            <Overlay opacity={0.2}/>
                             <div className={'gallery-name'}>
                                 <h3 className={'no-margin'}>{gallery.name}</h3>
                             </div>
