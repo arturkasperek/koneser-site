@@ -16,13 +16,20 @@ class Header extends React.Component {
     let currentScrollTopPosition = scrollPosition;
 
     const scrollDirectionDown = currentScrollTopPosition - this.state.prevScrollTopPosition < 0;
-    const pinned = 50 > currentScrollTopPosition;
 
-    this.setState({
-      prevScrollTopPosition: currentScrollTopPosition,
-      scrollDirectionDown,
-      pinned,
-    });
+    console.log('val is ', Math.abs(scrollPosition - this.state.prevScrollTopPosition))
+    if (
+        Math.abs(currentScrollTopPosition - this.state.prevScrollTopPosition) > 40 ||
+        currentScrollTopPosition < 50
+    ) {
+      const pinned = 50 > currentScrollTopPosition;
+
+      this.setState({
+        prevScrollTopPosition: currentScrollTopPosition,
+        scrollDirectionDown,
+        pinned,
+      });
+    }
   };
 
   componentDidMount() {

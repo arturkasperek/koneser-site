@@ -4,7 +4,7 @@ import './IntroImage.scss'
 const IntroImage = (props) => {
     return (
         <div className={`intro-image`}>
-            <div className={'image-holder'} style={{ backgroundImage: `url(${props.image})` }}/>
+            <div className={'image-holder'} style={{ backgroundImage: `url(${props.image})`, backgroundPosition: props.backgroundPosition }}/>
             <div className={'overlay'} style={{ opacity: 0.42 }}/>
             <div className={'title-element-container'}>
                 <div className={'title-element'}>

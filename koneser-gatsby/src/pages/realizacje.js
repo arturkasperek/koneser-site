@@ -8,7 +8,7 @@ import GalleryPickerImg from '../assets/images/realizacje/main.jpg'
 const Realizations = ({data}) => (
   <Layout>
     <SEO title="Realizacje" image={`${data.site.siteMetadata.siteUrl}${GalleryPickerImg}`} />
-    <IntroImage image={GalleryPickerImg} title={'Nasze realizacje'} subTitle={'Sprawdź nasze realizacje!'}/>
+    <IntroImage image={GalleryPickerImg} backgroundPosition={'center 20%'} title={'Nasze realizacje'} subTitle={'Sprawdź nasze realizacje!'}/>
     <GalleriesPicker />
   </Layout>
 )
