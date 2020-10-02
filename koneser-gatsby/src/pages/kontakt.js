@@ -6,10 +6,9 @@ import IntroImage from "../components/IntroImage";
 import Contact from "../components/Contact";
 import ContactImg from '../assets/images/kontakt.jpg'
 
-
-const ContactPage = () => (
+const ContactPage = ({data}) => (
   <Layout>
-    <SEO title="Kontakt" />
+    <SEO title="Kontakt" image={`${data.site.siteMetadata.siteUrl}${ContactImg}`} />
     <IntroImage image={ContactImg} title={'Kontakt'} subTitle={`Masz jakieś pytania? 
 Skontaktuj się z nami!`}/>
     <Contact />
@@ -17,3 +16,13 @@ Skontaktuj się z nami!`}/>
 )
 
 export default ContactPage;
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
+  }
+`

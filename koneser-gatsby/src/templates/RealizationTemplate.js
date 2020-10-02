@@ -8,8 +8,10 @@ import './RealizationTemplate.scss';
 export default class RealizationTemplate extends React.Component {
   render() {
     const {name, introImage, images} = this.props.pathContext;
+    const data = this.props.data;
+
     return <Layout>
-      <SEO title="TODO" />
+      <SEO title={`Realizacje: ${name}`} image={`${data.site.siteMetadata.siteUrl}${images[0].src}`} />
       <div className={'realization-template'}>
         <IntroImage image={introImage} title={name}/>
         <div className={'content-wrapper'}>
@@ -19,3 +21,13 @@ export default class RealizationTemplate extends React.Component {
     </Layout>
   }
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
+  }
+`

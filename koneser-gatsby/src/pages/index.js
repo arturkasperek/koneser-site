@@ -9,9 +9,11 @@ import About from '../components/About';
 import Button from "../components/Button";
 import ImageAndTextGrid from "../components/ImageAndTextGrid";
 
-const IndexPage = () => (
+import KuchniaImg from '../assets/images/showcase/kuchnie.jpg'
+
+const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Strona Domowa" />
+    <SEO title="Strona Domowa" image={`${data.site.siteMetadata.siteUrl}${KuchniaImg}`} />
     <FullImageGallery>
       <div>
           <Button type={'primary'} to={'/realizacje'}>
@@ -28,3 +30,13 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
+  }
+`

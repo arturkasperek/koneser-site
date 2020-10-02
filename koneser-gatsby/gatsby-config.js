@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Koneser - Meble dla wymagających`,
+    description: `Firma „Koneser” działa od 2006 roku i specjalizuje się w produkcji mebli na zamówienie`,
+    author: `Artur Kasperek`,
+    siteUrl: `http://www.koneser-meble.pl`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {

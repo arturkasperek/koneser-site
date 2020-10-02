@@ -26,8 +26,6 @@ const GridGallery = (props) => {
     };
     const images = props.images;
 
-    console.log(images);
-
     return (
         <div className={'grid-gallery-component container'}>
             <div className={'grid-gallery-wrapper'}>
