@@ -20,8 +20,9 @@ const allRealizations = [{
   name: 'Inne',
 }]
 
-exports.createPages = async ({ graphql, boundActionCreators }) => {
+exports.createPages = async ({ graphql, actions, boundActionCreators }) => {
   const path = require(`path`);
+  const { createRedirect } = actions;
   const { createPage } = boundActionCreators;
 
   const result = (await graphql(`
@@ -87,7 +88,7 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
     'inne': [],
   });
 
-  console.log('imagesMap is', imagesMap)
+  createRedirect({ fromPath: '/serwis/menu/id/1', toPath: '/', isPermanent: true });
 
   allRealizations.forEach(i => {
     createPage({

@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-client-side-redirect`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
