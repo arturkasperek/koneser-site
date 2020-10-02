@@ -1,46 +1,54 @@
 import './GridGallery.scss';
-import Gallery from 'react-grid-gallery';
-import InfiniteScroll from 'react-infinite-scroller';
-import React, {useContext, useState} from "react";
-
-const INITIAL_IMAGE_LOAD_COUNT = 15;
-export const MaxImageIndexLoadContext = React.createContext(INITIAL_IMAGE_LOAD_COUNT);
-
-const ImageComponent = (props) => {
-    const maxImageIndexLoad = useContext(MaxImageIndexLoadContext);
-
-    if ( props.index < maxImageIndexLoad ) {
-        return <img {...props.imageProps} />;
-    } else {
-        return <div key={props.key} className={'to-load'} />;
-    }
-};
+import Slider from "react-slick";
+import React, { useState } from "react";
 
 const GridGallery = (props) => {
-    const [maxImageIndexToShow, setMaxImageIndexToShow] = useState(INITIAL_IMAGE_LOAD_COUNT);
-    const images = props.images.map((item, index) => ({
-        src: item,
-        thumbnail: item,
-        thumbnailWidth: maxImageIndexToShow > index ? 320 : 0,
-        thumbnailHeight: maxImageIndexToShow > index ? 174 : 0,
-    }));
-    const loadMore = () => {
-        setMaxImageIndexToShow(maxImageIndexToShow + 15);
+    const [mainRef, setMainRef] = useState(null);
+    const [subRef, setSubRef] = useState(null);
+    const settingsMain = {
+        dots: false,
+        fade: true,
+        infinite: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        autoplay: false,
+        pauseOnHover: true,
+        asNavFor: subRef,
     };
+    const settingsSub = {
+        dots: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 8,
+        swipeToSlide: true,
+        focusOnSelect: true,
+        asNavFor: mainRef,
+    };
+    const images = props.images;
+
+    console.log(images);
 
     return (
         <div className={'grid-gallery-component container'}>
             <div className={'grid-gallery-wrapper'}>
-                <InfiniteScroll
-                    pageStart={0}
-                    loadMore={loadMore}
-                    hasMore={maxImageIndexToShow < images.length}
-                    loader={<div className="loader" key={0}>Ładuje ...</div>}
-                >
-                    <MaxImageIndexLoadContext.Provider value={maxImageIndexToShow}>
-                        <Gallery enableImageSelection={false} images={images} imageCountSeparator={' z '} thumbnailImageComponent={ImageComponent} />
-                    </MaxImageIndexLoadContext.Provider>
-                </InfiniteScroll>
+                <div className={'main'}>
+                    <Slider ref={slider => setMainRef(slider)} {...settingsMain}>
+                        {images.map((image, key) => (
+                            <div className={`image-item ${image.maxHeight > image.maxWidth ? 'contain': ''}`} key={key}>
+                                <div className={'image-holder'} style={{backgroundImage: `url(${image.src})`}} />
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+                <div className={'sub'}>
+                    <Slider ref={slider => setSubRef(slider)} {...settingsSub}>
+                        {images.map((image, key) => (
+                            <div className={`image-item ${image.maxHeight > image.maxWidth ? 'contain': ''}`} key={key}>
+                                <div className={'image-holder'} style={{backgroundImage: `url(${image.src})`}} />
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
             </div>
         </div>
     );

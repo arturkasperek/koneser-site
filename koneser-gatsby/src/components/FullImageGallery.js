@@ -1,10 +1,10 @@
 import React from 'react';
 import Slider from "react-slick";
 import './FullImageGallery.scss';
-import KuchniaImg from '../assets/images/showcase/kuchnia.jpg'
-import LazienkaImg from '../assets/images/showcase/lazienka.jpg'
+import KuchniaImg from '../assets/images/showcase/kuchnie.jpg'
+import LazienkaImg from '../assets/images/showcase/lazienki.jpg'
 import InneImg from '../assets/images/showcase/inne.jpg'
-import SzafaImg from '../assets/images/showcase/szafa.jpg'
+import SzafaImg from '../assets/images/showcase/szafy-garderoby.jpg'
 
 const FullImageGallery = (props) => {
     const settings = {

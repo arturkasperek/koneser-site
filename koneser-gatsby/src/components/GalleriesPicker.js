@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from "gatsby";
 import './GalleriesPicker.scss';
 import Overlay from "./Overlay";
-import KuchniaImg from '../assets/images/showcase/kuchnia.jpg'
-import LazienkaImg from '../assets/images/showcase/lazienka.jpg'
+import KuchniaImg from '../assets/images/showcase/kuchnie.jpg'
+import LazienkaImg from '../assets/images/showcase/lazienki.jpg'
 import InneImg from '../assets/images/showcase/inne.jpg'
-import SzafaImg from '../assets/images/showcase/szafa.jpg'
+import SzafaImg from '../assets/images/showcase/szafy-garderoby.jpg'
 
 const galleries = [{
     image: KuchniaImg,
