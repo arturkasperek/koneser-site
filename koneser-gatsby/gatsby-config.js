@@ -3,7 +3,7 @@ module.exports = {
     title: `Koneser - Meble dla wymagających`,
     description: `Firma „Koneser” działa od 2006 roku i specjalizuje się w produkcji mebli na zamówienie`,
     author: `Artur Kasperek`,
-    siteUrl: `http://www.koneser-meble.pl`,
+    siteUrl: `https://koneser-meble.pl`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
