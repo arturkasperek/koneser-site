@@ -50,7 +50,7 @@ const Contact = (props) => {
                       Adres: 42-400 Zawiercie, ul. Żabia 39
                   </div>
                   <div>
-                      Strona: <a target={'_blank'} href={'http://profil-akcesoria.pl/'}>http://profil-akcesoria.pl/</a>
+                      Strona: <a target={'_blank'} href={'https://profil-akcesoria.pl/'}>https://profil-akcesoria.pl/</a>
                   </div>
               </div>
               <div className={'bottom'}>
