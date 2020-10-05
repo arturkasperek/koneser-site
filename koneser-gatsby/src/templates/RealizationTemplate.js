@@ -11,7 +11,7 @@ export default class RealizationTemplate extends React.Component {
     const data = this.props.data;
 
     return <Layout>
-      <SEO title={`Realizacje: ${name}`} image={`${data.site.siteMetadata.siteUrl}${images[0].src}`} />
+      <SEO title={`Realizacje: ${name}`} image={`${data.site.siteMetadata.siteUrl}${images[0].full.src}`} />
       <div className={'realization-template'}>
         <IntroImage image={introImage} title={name}/>
         <div className={'content-wrapper'}>

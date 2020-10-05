@@ -33,7 +33,15 @@ exports.createPages = async ({ graphql, actions, boundActionCreators }) => {
               relativePath
               relativeDirectory
               childImageSharp {
-                fluid(maxWidth: 2000, quality: 100) {
+                full: fluid(maxWidth: 2000, quality: 100) {
+                  srcWebp
+                  srcSetWebp
+                  originalName
+                  src
+                  maxHeight: presentationHeight
+                  maxWidth: presentationWidth
+                }
+                preview: fluid(maxWidth: 300, quality: 100) {
                   srcWebp
                   srcSetWebp
                   originalName
@@ -49,35 +57,35 @@ exports.createPages = async ({ graphql, actions, boundActionCreators }) => {
   `)).data.allFile.edges;
   const imagesMap = result.reduce((acc, file) => {
     if ( file.node.relativeDirectory === 'images/realizacje/kuchnie' ) {
-      acc['kuchnie'].push(file.node.childImageSharp.fluid);
+      acc['kuchnie'].push(file.node.childImageSharp);
     }
 
     if ( file.node.relativeDirectory === 'images/realizacje/szafy-garderoby' ) {
-      acc['szafy-garderoby'].push(file.node.childImageSharp.fluid);
+      acc['szafy-garderoby'].push(file.node.childImageSharp);
     }
 
     if ( file.node.relativeDirectory === 'images/realizacje/lazienki' ) {
-      acc['lazienki'].push(file.node.childImageSharp.fluid);
+      acc['lazienki'].push(file.node.childImageSharp);
     }
 
     if ( file.node.relativeDirectory === 'images/realizacje/inne' ) {
-      acc['inne'].push(file.node.childImageSharp.fluid);
+      acc['inne'].push(file.node.childImageSharp);
     }
 
     if ( file.node.relativePath.startsWith('images/showcase/kuchnie') ) {
-      acc['kuchnie-main'] = file.node.childImageSharp.fluid.src;
+      acc['kuchnie-main'] = file.node.childImageSharp.full.src;
     }
 
     if ( file.node.relativePath.startsWith('images/showcase/lazienki') ) {
-      acc['lazienki-main'] = file.node.childImageSharp.fluid.src;
+      acc['lazienki-main'] = file.node.childImageSharp.full.src;
     }
 
     if ( file.node.relativePath.startsWith('images/showcase/szafy-garderoby') ) {
-      acc['szafy-garderoby-main'] = file.node.childImageSharp.fluid.src;
+      acc['szafy-garderoby-main'] = file.node.childImageSharp.full.src;
     }
 
     if ( file.node.relativePath.startsWith('images/showcase/inne') ) {
-      acc['inne-main'] = file.node.childImageSharp.fluid.src;
+      acc['inne-main'] = file.node.childImageSharp.full.src;
     }
 
     return acc;

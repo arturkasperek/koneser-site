@@ -14,6 +14,7 @@ const GridGallery = (props) => {
         autoplay: false,
         pauseOnHover: true,
         asNavFor: subRef,
+        lazyLoad: 'ondemand',
     };
     const settingsSub = {
         dots: false,
@@ -23,6 +24,7 @@ const GridGallery = (props) => {
         swipeToSlide: true,
         focusOnSelect: true,
         asNavFor: mainRef,
+        lazyLoad: 'ondemand',
     };
     const images = props.images;
 
@@ -32,8 +34,8 @@ const GridGallery = (props) => {
                 <div className={'main'}>
                     <Slider ref={slider => setMainRef(slider)} {...settingsMain}>
                         {images.map((image, key) => (
-                            <div className={`image-item ${image.maxHeight > image.maxWidth ? 'contain': ''}`} key={key}>
-                                <div className={'image-holder'} style={{backgroundImage: `url(${image.src})`}} />
+                            <div className={`image-item ${image.full.maxHeight > image.full.maxWidth ? 'contain': ''}`} key={key}>
+                                <div className={'image-holder'} style={{backgroundImage: `url(${image.full.src})`}} />
                             </div>
                         ))}
                     </Slider>
@@ -41,8 +43,8 @@ const GridGallery = (props) => {
                 <div className={'sub'}>
                     <Slider ref={slider => setSubRef(slider)} {...settingsSub}>
                         {images.map((image, key) => (
-                            <div className={`image-item ${image.maxHeight > image.maxWidth ? 'contain': ''}`} key={key}>
-                                <div className={'image-holder'} style={{backgroundImage: `url(${image.src})`}} />
+                            <div className={`image-item ${image.preview.maxHeight > image.preview.maxWidth ? 'contain': ''}`} key={key}>
+                                <div className={'image-holder'} style={{backgroundImage: `url(${image.preview.src})`}} />
                             </div>
                         ))}
                     </Slider>
