@@ -12,6 +12,14 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-client-side-redirect`,
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://koneser-meble.pl',
+        sitemap: 'https://koneser-meble.pl/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
