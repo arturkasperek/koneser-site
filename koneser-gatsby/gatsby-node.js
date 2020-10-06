@@ -33,7 +33,7 @@ exports.createPages = async ({ graphql, actions, boundActionCreators }) => {
               relativePath
               relativeDirectory
               childImageSharp {
-                full: fluid(maxWidth: 2000, quality: 100) {
+                full: fluid(maxWidth: 2000, quality: 95) {
                   srcWebp
                   srcSetWebp
                   originalName

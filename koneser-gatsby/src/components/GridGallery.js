@@ -35,7 +35,7 @@ const GridGallery = (props) => {
                     <Slider ref={slider => setMainRef(slider)} {...settingsMain}>
                         {images.map((image, key) => (
                             <div className={`image-item ${image.full.maxHeight > image.full.maxWidth ? 'contain': ''}`} key={key}>
-                                <div className={'image-holder'} style={{backgroundImage: `url(${image.full.src})`}} />
+                                <div className={'image-holder'} style={{backgroundImage: `url(${image.full.srcWebp})`}} />
                             </div>
                         ))}
                     </Slider>
@@ -44,7 +44,7 @@ const GridGallery = (props) => {
                     <Slider ref={slider => setSubRef(slider)} {...settingsSub}>
                         {images.map((image, key) => (
                             <div className={`image-item ${image.preview.maxHeight > image.preview.maxWidth ? 'contain': ''}`} key={key}>
-                                <div className={'image-holder'} style={{backgroundImage: `url(${image.preview.src})`}} />
+                                <div className={'image-holder'} style={{backgroundImage: `url(${image.preview.srcWebp})`}} />
                             </div>
                         ))}
                     </Slider>
