@@ -1,12 +1,9 @@
 import React from 'react';
+import { useStaticQuery } from 'gatsby';
 import Slider from "react-slick";
 import './FullImageGallery.scss';
-import KuchniaImg from '../assets/images/showcase/kuchnie.jpg'
-import LazienkaImg from '../assets/images/showcase/lazienki.jpg'
-import InneImg from '../assets/images/showcase/inne.jpg'
-import SzafaImg from '../assets/images/showcase/szafy-garderoby.jpg'
 
-const FullImageGallery = (props) => {
+const FullImageGallery = ({children}) => {
     const settings = {
         dots: false,
         fade: true,
@@ -16,23 +13,63 @@ const FullImageGallery = (props) => {
         autoplay: true,
         pauseOnHover: false,
     };
+    const imagesData = useStaticQuery(graphql`
+        fragment ImageFields on ImageSharpFluid {
+          srcWebp
+          maxHeight: presentationHeight
+          maxWidth: presentationWidth
+        }
+        
+        query {
+          kuchniaImg: file(relativePath: {eq: "images/realizacje/kuchnie-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+          lazienkaImg: file(relativePath: {eq: "images/realizacje/lazienki-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+          inneImg: file(relativePath: {eq: "images/realizacje/inne-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+          szafaImg: file(relativePath: {eq: "images/realizacje/szafy-garderoby-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+        }
+    `);
+
     const images = [{
-        image: KuchniaImg,
+        image: imagesData['kuchniaImg'].childImageSharp.fluid.srcWebp,
         name: 'Kuchnie',
         slug: 'kuchnie',
     }, {
-        image: LazienkaImg,
+        image: imagesData['lazienkaImg'].childImageSharp.fluid.srcWebp,
         name: 'Łazienki',
         slug: 'lazienki',
     }, {
-        image: SzafaImg,
+        image: imagesData['szafaImg'].childImageSharp.fluid.srcWebp,
         name: 'Szafy I Garderoby',
         slug: 'szafy-garderoby',
     }, {
-        image: InneImg,
+        image: imagesData['inneImg'].childImageSharp.fluid.srcWebp,
         name: 'Inne',
         slug: 'inne',
     }];
+
     return (
         <div className={'full-image-gallery'}>
             {!!images.length && (
@@ -48,7 +85,7 @@ const FullImageGallery = (props) => {
                                             <h1>{i.name}</h1>
                                         </div>
                                         <div className={'content-child-item'}>
-                                            {props.children}
+                                            {children}
                                         </div>
                                     </div>
                                 </div>

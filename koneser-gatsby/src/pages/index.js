@@ -1,15 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import FullImageGallery from '../components/FullImageGallery';
 import About from '../components/About';
 import Button from "../components/Button";
 import ImageAndTextGrid from "../components/ImageAndTextGrid";
 
-import KuchniaImg from '../assets/images/showcase/kuchnie.jpg'
+import KuchniaImg from '../assets/images/realizacje/kuchnie-main.jpg'
 
 const IndexPage = ({ data }) => (
   <Layout>

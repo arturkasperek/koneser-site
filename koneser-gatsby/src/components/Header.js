@@ -17,7 +17,6 @@ class Header extends React.Component {
 
     const scrollDirectionDown = currentScrollTopPosition - this.state.prevScrollTopPosition < 0;
 
-    console.log('val is ', Math.abs(scrollPosition - this.state.prevScrollTopPosition))
     if (
         Math.abs(currentScrollTopPosition - this.state.prevScrollTopPosition) > 40 ||
         currentScrollTopPosition < 50

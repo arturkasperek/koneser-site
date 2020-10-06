@@ -1,16 +1,28 @@
 import React from 'react';
 import './About.scss';
-import AboutImg from '../assets/images/homepage/about.jpg'
+import {useStaticQuery} from "gatsby";
 
-
-const About = (props) => {
+const About = ({}) => {
+    const imageData = useStaticQuery(graphql`        
+        query {
+          aboutImg: file(relativePath: {eq: "images/homepage/about.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                srcWebp
+                maxHeight: presentationHeight
+                maxWidth: presentationWidth
+              }
+            }
+          }
+        }
+    `);
     return (
         <div className={'about-home'}>
             <div className={'container'}>
                 <div className={'content-wrapper'}>
                     <div className={'left'}>
                         <div className={'left-wrapper'}>
-                            <div className={'image-wrapper'} style={{backgroundImage: `url(${AboutImg})`}}/>
+                            <div className={'image-wrapper'} style={{backgroundImage: `url(${imageData.aboutImg.childImageSharp.fluid.srcWebp})`}}/>
                         </div>
                     </div>
                     <div className={'right'}>

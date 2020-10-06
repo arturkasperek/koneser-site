@@ -1,31 +1,66 @@
 import React from 'react';
-import { Link } from "gatsby";
+import {Link, useStaticQuery} from "gatsby";
 import './GalleriesPicker.scss';
 import Overlay from "./Overlay";
-import KuchniaImg from '../assets/images/showcase/kuchnie.jpg'
-import LazienkaImg from '../assets/images/showcase/lazienki.jpg'
-import InneImg from '../assets/images/showcase/inne.jpg'
-import SzafaImg from '../assets/images/showcase/szafy-garderoby.jpg'
-
-const galleries = [{
-    image: KuchniaImg,
-    name: 'Kuchnie',
-    slug: 'kuchnie',
-}, {
-    image: LazienkaImg,
-    name: 'Łazienki',
-    slug: 'lazienki',
-}, {
-    image: SzafaImg,
-    name: 'Szafy I Garderoby',
-    slug: 'szafy-garderoby',
-}, {
-    image: InneImg,
-    name: 'Inne',
-    slug: 'inne',
-}];
 
 const GalleriesPicker = () => {
+    const imagesData = useStaticQuery(graphql`
+        fragment ImageFields on ImageSharpFluid {
+          srcWebp
+          maxHeight: presentationHeight
+          maxWidth: presentationWidth
+        }
+        
+        query {
+          kuchniaImg: file(relativePath: {eq: "images/realizacje/kuchnie-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+          lazienkaImg: file(relativePath: {eq: "images/realizacje/lazienki-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+          inneImg: file(relativePath: {eq: "images/realizacje/inne-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+          szafaImg: file(relativePath: {eq: "images/realizacje/szafy-garderoby-main.jpg"}) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...ImageFields
+              }
+            }
+          }
+        }
+    `);
+
+    const galleries = [{
+        image: imagesData['kuchniaImg'].childImageSharp.fluid.srcWebp,
+        name: 'Kuchnie',
+        slug: 'kuchnie',
+    }, {
+        image: imagesData['lazienkaImg'].childImageSharp.fluid.srcWebp,
+        name: 'Łazienki',
+        slug: 'lazienki',
+    }, {
+        image: imagesData['szafaImg'].childImageSharp.fluid.srcWebp,
+        name: 'Szafy I Garderoby',
+        slug: 'szafy-garderoby',
+    }, {
+        image: imagesData['inneImg'].childImageSharp.fluid.srcWebp,
+        name: 'Inne',
+        slug: 'inne',
+    }];
+
     return (
         <div className={`galleries-picker container`}>
             {galleries.map(gallery => (

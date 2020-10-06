@@ -72,20 +72,20 @@ exports.createPages = async ({ graphql, actions, boundActionCreators }) => {
       acc['inne'].push(file.node.childImageSharp);
     }
 
-    if ( file.node.relativePath.startsWith('images/showcase/kuchnie') ) {
-      acc['kuchnie-main'] = file.node.childImageSharp.full.src;
+    if ( file.node.relativePath.startsWith('images/realizacje/kuchnie-main') ) {
+      acc['kuchnie-main'] = file.node.childImageSharp.full.srcWebp;
     }
 
-    if ( file.node.relativePath.startsWith('images/showcase/lazienki') ) {
-      acc['lazienki-main'] = file.node.childImageSharp.full.src;
+    if ( file.node.relativePath.startsWith('images/realizacje/lazienki-main') ) {
+      acc['lazienki-main'] = file.node.childImageSharp.full.srcWebp;
     }
 
-    if ( file.node.relativePath.startsWith('images/showcase/szafy-garderoby') ) {
-      acc['szafy-garderoby-main'] = file.node.childImageSharp.full.src;
+    if ( file.node.relativePath.startsWith('images/realizacje/szafy-garderoby-main') ) {
+      acc['szafy-garderoby-main'] = file.node.childImageSharp.full.srcWebp;
     }
 
-    if ( file.node.relativePath.startsWith('images/showcase/inne') ) {
-      acc['inne-main'] = file.node.childImageSharp.full.src;
+    if ( file.node.relativePath.startsWith('images/realizacje/inne-main') ) {
+      acc['inne-main'] = file.node.childImageSharp.full.srcWebp;
     }
 
     return acc;
