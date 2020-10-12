@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://koneser-meble.pl/sitemap.xml
+Host: https://koneser-meble.pl
