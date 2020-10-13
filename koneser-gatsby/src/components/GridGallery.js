@@ -26,7 +26,9 @@ const GridGallery = (props) => {
         asNavFor: mainRef,
         lazyLoad: 'ondemand',
     };
-    const images = props.images;
+    const images = props.images.sort((a, b) => {
+        return a.full.originalName.localeCompare(b.full.originalName);
+    });
 
     return (
         <div className={'grid-gallery-component container'}>
