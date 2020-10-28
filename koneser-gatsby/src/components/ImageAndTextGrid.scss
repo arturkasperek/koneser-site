@@ -113,13 +113,14 @@
     .items-container {
       .item {
         margin-bottom: 20px;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
         .image-wrapper {
           padding-bottom: 55%;
           transform: none;
           flex-basis: 100%;
           margin-bottom: 20px;
+          min-height: auto;
 
           .image-holder {
             right: 0;
@@ -136,6 +137,10 @@
         }
 
         &.image-on-right {
+          margin-left: 25px;
+          margin-right: 25px;
+          width: calc(100% - 50px);
+
           .image-wrapper {
             transform: none;
             order: 0;

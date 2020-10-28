@@ -25,6 +25,14 @@ const GridGallery = (props) => {
         focusOnSelect: true,
         asNavFor: mainRef,
         lazyLoad: 'ondemand',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+        ]
     };
     const images = props.images.sort((a, b) => {
         return a.full.originalName.localeCompare(b.full.originalName);

@@ -7,6 +7,10 @@
     display: flex;
     margin: 0 -25px;
 
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
     .title {
       margin-top: 0;
     }
@@ -18,8 +22,24 @@
       text-align: center;
     }
 
+    .left {
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+      }
+    }
+
+    .right {
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+      }
+    }
+
     .center {
       text-align: center;
+
+      @media (max-width: 768px) {
+        order: 1;
+      }
 
       .map {
         width: 100%;

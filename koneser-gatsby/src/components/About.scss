@@ -9,6 +9,11 @@
       position: relative;
       flex-basis: 50%;
 
+      @media (max-width: 768px) {
+        flex-basis: 100%;
+        margin: 0 0 20px 0;
+      }
+
       .left-wrapper {
         width: 100%;
         padding-bottom: 80%;
@@ -29,10 +34,19 @@
       margin: 0 20px;
       flex-basis: 50%;
 
+      @media (max-width: 768px) {
+        flex-basis: 100%;
+        margin: 0;
+      }
+
       .bottom {
         font-size: 20px;
         margin-top: 20px;
       }
+    }
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
     }
   }
 }

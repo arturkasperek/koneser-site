@@ -6,8 +6,12 @@
     grid-template-columns: 1.7fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 90px;
-    grid-template-areas: ". .";
     text-align: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 30px 0;
+    }
 
     .right-column {
       display: flex;
