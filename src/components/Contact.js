@@ -31,7 +31,7 @@ const Contact = (props) => {
               <iframe
                   className={'map'}
                   frameBorder="0"
-                  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAjNVjaTGYCkBRs5otdvGYMG5xkwRvdER8&q=Koneser.+FPHU.+Kasperek+M.`}
+                  src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.181236708819!2d19.408491115674583!3d50.49358457948137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717238d6f4fbeef%3A0x81e2bddb68efff5e!2sKoneser%20-%20Meble%20na%20wymiar!5e0!3m2!1sen!2spl!4v1658749510928!5m2!1sen!2spl`}
                   allowFullScreen/>
           </div>
           <div class={'right-column'}>
