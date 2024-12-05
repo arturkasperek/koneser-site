@@ -29,7 +29,7 @@
     "react-image-gallery": "^1.0.9",
     "react-infinite-scroller": "^1.2.4",
     "react-slick": "0.28.0",
-    "react-typography": "^0.16.19",
+    "react-typography": "^0.16.20",
     "typography": "^0.16.19"
   },
   "devDependencies": {
